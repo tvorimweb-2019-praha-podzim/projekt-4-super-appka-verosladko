@@ -30,4 +30,117 @@ body {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 }
 
+
 /* ----- zde začni psát vlastní CSS ----- */
+
+.menu {
+    padding: 1em;
+
+}
+
+a {
+    color: black;
+}
+ul {
+    display: flex;
+    list-style-type: none;
+    font-size: 1.5em;
+    text-decoration: none;
+    justify-content: flex-start;
+    margin: 0em;
+
+}
+
+ul a {
+    padding: 1em;
+    margin: 5px;
+    text-decoration: none;
+}
+a.selected {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.banner {
+    display: flex;
+    background-image: url(/images/pozadi.jpg);
+    color: white;
+    height: 500px; 
+    padding: 0px;
+}
+
+.left {
+    padding: 2em;
+    flex-grow: 0;
+}
+
+.header {
+    font-size: 5em;
+    font-weight: 400;
+    margin: 0.3em 0em;
+}
+
+.subheader {
+    font-size: 2.5em;
+    font-weight: 200;
+    margin: 0.3em 0em;
+    padding: 0em 1em 0em 0em;
+}
+.phone {
+    display: flex;
+    align-items: flex-end;
+    flex-grow: 2;
+    margin: 0px;
+
+}
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 1.1em;
+    
+}
+.button {
+    display: flex;
+    color: white;
+    text-decoration: none;
+    border: solid 1px white;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 1px 3px 5px #25133d;
+    width: 200px;
+    height: 70px;  
+
+    
+}
+
+a.button.blue {
+    background-color: #48418e;
+}
+
+.pannel {
+    display: flex;
+    flex-direction: row;
+    padding: 1em 2em;
+}
+
+.column {
+    padding: .5em 1em;
+}
+
+.inside {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.copyright {
+    color: white;
+    font-size: 0.8em;
+    margin: 0em;
+    text-align: center;
+}
+.footer {
+    padding: 1em;
+    background-color: #48418e;
+}
